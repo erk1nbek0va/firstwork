@@ -1,0 +1,302 @@
+@media screen and (max-width: 1200px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .header img{
+        padding-right: 20px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .menu{
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 900px){
+    .nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    .main-block{
+        padding-left: 0;
+        /* padding-right: 0; */
+    }
+    .block-1{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .block-1 h1{
+        font-size: 25px;
+    }
+    .block-1 p{
+        width: 100%;
+    }
+    .block-2{
+        display: none;
+    }
+    .boxes{
+        width: 100%;
+        padding-top: 100%;
+        background-image: url(../img/изображениеe.png);
+        background-position: 90%;
+        /* padding-right: 100px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .boxes a{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width: 900px){
+    .block-info{
+        padding-left: 0;
+    }
+    .text-info{
+        width: 100%;
+    }
+    .top-cards{
+        display: block;
+        margin-left: 10%;
+    }
+    .card{
+        width: 20%;
+        margin-top: 25px;
+    }
+    .img-info{
+        display: none;
+    }
+    .text-info{
+        padding-left: 0;
+    }
+    .text-info h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .info-a{
+        padding-top: 100%;
+        background-image: url(..//img/третий\ секшн\ изображение.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .info-a a{
+        margin-left: 30px;
+        padding: 20px 20px;
+    }
+}
+@media screen and (max-width: 640px){
+    .top-cards{
+        display: inline-block;
+    }
+    .card{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 480px){
+    .card{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 900px){
+    .text-top h1{
+        font-size: 25px;
+    }
+    .row-cards{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .pic-cards{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px){
+    .row-cards{
+        display: block;
+        margin-left: 20px;
+    }
+    .pic-cards{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px){
+    .pic-cards{
+        width: 150%;
+        margin-left: 20px;
+    }
+    .img-card{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 992px){
+    .start-part{
+        width: 50%;
+    }
+    .end-part{
+        width: 50%;
+    }
+    .start-part h4{
+        font-size: 15px;
+    }
+    .start-part h1{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 640px){
+    .end-part{
+        display: none;
+    }
+    .start-part{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .bottom-under-rows{
+        display: inline-block;
+        margin-top: 140px;
+    }
+    .bottom-under-top-cardss{
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .bottom-under-rows{
+        display: inline-block;
+        margin-top: 140px;
+    }
+    .bottom-under-top-cardss{
+        width: 50%;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 900px){
+    .row-cards{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .bottom-under-rows{
+        width: 100%;
+        padding-left: 65px;
+        padding-top: 30px;
+    }
+    .bottom-under-top-cardss{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .last-img{
+        width: 50%;
+    }
+    .last-2{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px){
+    .last-img{
+        display: none;
+    }
+    .last-2{
+        width: 100%;
+        padding-top: 100%;
+        padding-left: 50px;
+        align-items: center;
+        background: url(../img/последний\ секшн.png);
+        background-repeat: no-repeat;
+        background-position: 30px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .footer-under{
+        display: flex;
+        justify-content: space-between;
+    }
+    .part-img{
+        width: 100%;
+    }
+    .links{
+        width: 20%;
+    }
+    .link-img{
+         width: 20%;
+         display: flex;
+    }
+    .link-3{
+        width: 13%;
+        padding-left: 20px;
+    }
+    .link-4{
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 992px){
+    .link-3{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px){
+    .footer-under{
+        display: block;
+    }
+    .part-img{
+        margin-left: 30%;
+    }
+    .links{
+        display: block;
+        padding-top: 50px;
+        line-height: 30px;
+        margin-left: 38%;
+    }
+    .link-2{
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 25%;
+    }
+    .link-img{
+        padding-top: 20px;
+        margin-left: 40%;
+    }
+    .link-3{
+        padding-left: 220px;
+    }
+    .link-4{
+        width: 60%;
+        padding-top: 10px;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 640px){
+    .footer-under{
+        display: block;
+    }
+    .part-img{
+        display: none;
+    }
+    .links{
+        margin-left: 10%;
+        display: none;
+    }
+    .link-2{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .link-img{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 35%;
+        display: flex;
+    }
+    .link-3{
+        display: none;
+    }
+    .link-4{
+        width: 85%;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}
